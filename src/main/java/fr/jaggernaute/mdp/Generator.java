@@ -2,7 +2,7 @@ package fr.jaggernaute.mdp;
 
 public class Generator{
 
-    HelloApplication app = new HelloApplication();
+    MdpGenerator app = new MdpGenerator();
     int length;
     char[] tChar = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R',
             'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'};

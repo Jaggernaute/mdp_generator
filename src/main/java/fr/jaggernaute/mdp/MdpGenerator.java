@@ -18,12 +18,13 @@ import java.io.IOException;
 import java.util.Objects;
 
 
-public class HelloApplication extends Application {
+public class MdpGenerator extends Application {
 
     CheckBox checkBox1 = new CheckBox("Lettres");
     CheckBox checkBox2 = new CheckBox("Chiffres");
     CheckBox checkBox3 = new CheckBox("Symboles");
     Text text = new Text();
+    Text label = new Text();
     int binaryBox;
 
     @Override
